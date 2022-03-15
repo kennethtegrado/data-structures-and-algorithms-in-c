@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 // Defining an ARRAY ADT
+// This kind of implementation utilizes Arrays as ADT
 struct Array
 {
     int *A;

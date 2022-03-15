@@ -1,3 +1,50 @@
+# Data Structures and Algorithms in C
+
+This repository will be an open-source project exploring the implementation of Data Structures and algorithms in C
+
+#### Table of Contents
+
+- [Data Structures and Algorithms in C](#data-structures-and-algorithms-in-c)
+      - [Table of Contents](#table-of-contents)
+- [Arrays](#arrays)
+    - [Static Array Implementation Example](#static-array-implementation-example)
+  - [Calculating the Address of Elements in an array](#calculating-the-address-of-elements-in-an-array)
+    - [Row Major](#row-major)
+    - [Column Major](#column-major)
+    - [Horner’s Method](#horners-method)
+  - [Data on an Array](#data-on-an-array)
+  - [Operations on an Array](#operations-on-an-array)
+    - [Display](#display)
+    - [Append](#append)
+    - [Insert](#insert)
+    - [Delete](#delete)
+    - [Search](#search)
+    - [Get](#get)
+    - [Set](#set)
+    - [Max/Min](#maxmin)
+    - [Sum](#sum)
+    - [Average](#average)
+    - [Reverse](#reverse)
+    - [Shift/Rotate](#shiftrotate)
+  - [Merging Arrays](#merging-arrays)
+    - [Common Operations on Merging](#common-operations-on-merging)
+- [Strings](#strings)
+  - [Implementation of strings](#implementation-of-strings)
+  - [Commonly Used Operations on Strings](#commonly-used-operations-on-strings)
+- [Structures](#structures)
+  - [Structure Padding](#structure-padding)
+- [Pointers](#pointers)
+  - [Pointer to Structure](#pointer-to-structure)
+- [Functions](#functions)
+- [Data Structures](#data-structures)
+  - [Physical Data Structures](#physical-data-structures)
+    - [Examples](#examples)
+  - [Logical Data Structures](#logical-data-structures)
+    - [Examples](#examples-1)
+- [Abstract Data Type](#abstract-data-type)
+  - [List](#list)
+    - [Operations](#operations)
+
 # Arrays
 
 Defined as a collection of all data elements with the same data type
