@@ -2,6 +2,8 @@
 
 Defined as a collection of all data elements with the same data type
 
+> You can check the Arrays directory and go to `main.c` to check the full implementation of the code
+
 ### Static Array Implementation Example
 
 ```c
