@@ -1,11 +1,9 @@
-# Data Structures and Algorithms in C
+## Data Structures and Algorithms in C
 
 This repository will be an open-source project exploring the implementation of Data Structures and algorithms in C
 
 #### Table of Contents
 
-- [Data Structures and Algorithms in C](#data-structures-and-algorithms-in-c)
-      - [Table of Contents](#table-of-contents)
 - [Arrays](#arrays)
     - [Static Array Implementation Example](#static-array-implementation-example)
   - [Calculating the Address of Elements in an array](#calculating-the-address-of-elements-in-an-array)
