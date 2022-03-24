@@ -54,3 +54,24 @@ char *ToggleCase(char *string)
             string[i] = string[i] - 32;
     return string;
 }
+
+// Finding duplicates in an array using bitwise operations
+int Duplicates(char *string)
+{
+    long int H = 0, x = 0;
+
+    for (int i = 0; string[i] != '\o'; i++)
+    {
+        x = 1;
+        x = x << (string[i] - 97);
+
+        // Masking
+        if ((x & H) > 0)
+        {
+            printf("This string is a duplicate: %c\n", string[i]);
+        }
+        else
+            H = x | H;
+        // Merging
+    }
+}

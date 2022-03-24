@@ -26,9 +26,11 @@ This repository will be an open-source project exploring the implementation of D
     - [Shift/Rotate](#shiftrotate)
   - [Merging Arrays](#merging-arrays)
     - [Common Operations on Merging](#common-operations-on-merging)
-- [Strings](#strings)
-  - [Implementation of strings](#implementation-of-strings)
-  - [Commonly Used Operations on Strings](#commonly-used-operations-on-strings)
+- [Linked List](#linked-list)
+  - [Difference with Arrays and Linked Lists](#difference-with-arrays-and-linked-lists)
+  - [Methods of Linked Lists](#methods-of-linked-lists)
+    - [Traversing a Linked Lists](#traversing-a-linked-lists)
+      - [Applications](#applications)
 - [Structures](#structures)
   - [Structure Padding](#structure-padding)
 - [Pointers](#pointers)
@@ -268,75 +270,23 @@ Can only be done on sorted arrays. It can only be done by creating a third array
 -   Compare
 -   Copy
 
-# Strings
+````
 
-Programs do not know characters rather, they convert numbers to binary code using a standard for converting codes like `ASCII` and `Unicodes`
-
-## Implementation of strings
-
-```c
-// Declaration
-char character;
-
-// Initialization
-temp = 'A';
-// Use single quotation marks only for declaring character variables
-// You can only use a single character per initialization
-
-// Printing characters
-// use the %c format specifier
-printf("%c", temp);
-
-// This is how we create strings in C
-// Declaration
-char X[5];
-// Strings in C are considered arrays of characters
-// This will contain 5 characters
-
-// Initialization
-X={'A','B','C','D','E', '\o'};
+# Linked List
+- Arrays have a fix size so we need to increase it everytime our elements exceeds the memory allocated during declaration.
+- Arrays are not good when we don't know the exact number of elements we are going to store in memory
+- We need to continuously increase our memory size when we are going to put elements
 
 
-// Second way of initialization
-// Implicit declaration of size
-char D[]={'A', 'B','C', '\o'};
-// This is same with char D[3]
+## Difference with Arrays and Linked Lists
+- Accessing elements on an array can be done through indexing since they are contiguous
 
+## Methods of Linked Lists
+### Traversing a Linked Lists
+To traverse a linked list, you need to use another pointer and reinitiliaze its value to the address of the next pointer every time
+#### Applications
+- Displaying contents of linked lists
 
-// Third way and I prefer this
-char name[] = "John";
-// We wrap sequence of characters in double quotation marks
-
-// Printing Strings
-printf("%s", name);
-
-// Getting strings
-scanf("%s", name);
-
-// Gettings Strings with spaces until enter use gets Function
-// E.x. John Smith
-gets("%s", name);
-```
-
-The issue with strings is that we don't know where the last characters ends on an array that's why we use the `\o` string delimiter.
-Known as:
-
--   String Delimter
--   End of String Char
--   Null Char
--   String Terminator
-
-## Commonly Used Operations on Strings
-
--   Length of a string
-    Use this implementation to find the length of a string in C
-
-```c
-int i;
-for (i = 0; Array[i] != '\o';i++)
-return i;
-
-```
 
 # Structures
 
@@ -368,7 +318,7 @@ int main() {
 	// you can even create an array of structures
 	struct Rectange rectangles[5]={{1,2}...};
 }
-```
+````
 
 ## Structure Padding
 
@@ -384,7 +334,7 @@ Are used for accessing heap memory and resources outside of the program memory. 
 
 # Data Structures
 
-Is an arrangement of collected data items so that they can be utilized efficiently together with the operations that can be done for the data. Arrangement of the collected data is done on the main memory.
+Is an arrangement of collected data items so that they can be utilized efficiently together with the operations that can be done for the data. Arrangement of the collected data is done on the main memory.z
 
 ## Physical Data Structures
 
